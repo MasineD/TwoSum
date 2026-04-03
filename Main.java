@@ -20,9 +20,17 @@ public class  Main {
             System.out.println("Length of "+data.length+" is out of range");
             return;
         }
+        if(target < -1000000000 || target > 1000000000){
+            System.out.println("Target "+target+" is out of range");
+            return;
+        }
         for(int i = 0; i<data.length-1;i++){
             for(int j = i + 1;j < data.length;j++){
-                if((data[i] + data[j]) == target){
+                if(data[i] < -1000000000 || data[i] > 1000000000){
+                    System.out.println("Element "+data[i]+" is out of range");
+                    return;
+                }
+                else if((data[i] + data[j]) == target){
                     System.out.println("["+i+","+j+"]");
                     return;
                 }
