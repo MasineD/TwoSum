@@ -15,10 +15,10 @@ You can return the answer in any order.
 
 Constraints:
 
-1. 2 <= nums.length <= 10e4
-2. -10e9 <= nums[i] <= 10e9
-3. -10e9 <= target <= 10e9
-4. Only one valid answer exists.
+    1. 2 <= nums.length <= 10e4
+    2. -10e9 <= nums[i] <= 10e9
+    3. -10e9 <= target <= 10e9
+    4. Only one valid answer exists.
 
 ## Project Status
 
